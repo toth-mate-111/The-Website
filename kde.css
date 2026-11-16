@@ -1,0 +1,104 @@
+.kde-box {
+    margin: 10px 0px;
+    position: absolute;
+    top: 895px;
+    left: 6.5%;
+    background: rgba(43, 43, 43, 0.85);
+    backdrop-filter: blur(20px) saturate(200%);
+    -webkit-backdrop-filter: blur(20px) saturate(200%);
+    padding: 0px 0;
+    z-index: 10;
+    border-radius: 5px;
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.1s ease, transform 0.1s ease, visibility 0.1s;
+    cursor: default;
+}
+
+.kde-box.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+#kde-button {
+    margin-left: auto;
+    margin-right: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.month {
+    margin: 5px 0px 10px 0px;
+}
+
+.kde-bar {
+    margin-top: 750px;
+    margin-left: 0%;
+    margin-right: 0%;
+    align-items: center;
+    background: rgba(43, 43, 43, 0.85);
+    backdrop-filter: blur(20px) saturate(200%);
+    -webkit-backdrop-filter: blur(20px) saturate(200%);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.kde-icon:first-child {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.kde-icon {
+    margin: 3px 5px 0px 0px;
+    padding: 7px;
+    height: 38px;
+}
+
+.kde-icon:hover {
+    filter: contrast(0.8) brightness(1.3);
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    display: flex;
+    margin-left: auto;
+}
+
+.kde {
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.random-text {
+    color: transparent;
+}
+
+.kde-icons {
+    display: flex;
+}
+
+.kde-time {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 19px;
+    margin-left: 5px;
+}
+
+.kde-time:first-child {
+    margin-top: 10px;
+    font-size: 20px;
+}
